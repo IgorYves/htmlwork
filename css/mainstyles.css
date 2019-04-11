@@ -1,6 +1,25 @@
 @charset "UTF-8";
 html {
 	background-color: #b7b4a9;
+	
+}
+
+h1 {
+	font-family: "Lucida Console", Monaco, monospace;
+font-size: 30px;
+letter-spacing: 2.4px;
+word-spacing: 3.2px;
+color: #323126;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+text-align: center;
+}
+
+h3, h2 {
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 body {
@@ -8,7 +27,60 @@ body {
 	padding: 10px 30px;
 	margin: 30px 30px;
 	border-radius: 10px;
+	border: 1px solid #8C9E94;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
 	background-color: #eae0b5;
 }
-div#imglegion{}
+div#imglegion{
+	display: inline-block;
+}
+div#about {
+	display: inline-block;
+	position:relative;
+	left:50px;
+	top:-20px;
+}
+
+form#contactme {
+	width: 50%;
+}
+
+#submit {
+	position:relative;
+	right:0px;
+	bottom:10px;
+}
+div.peintre {
+	width: 90%;
+	margin: 30px 30px;
+	display: block;
+	clear: left;
+	padding: 20px;
+}
+
+div.poeme {
+	width: 90%;
+	margin: 0px 30px;
+	display: block;
+	clear: left;
+	padding: 20px;
+}
+
+img {
+	float:left;
+	display: inline;
+	margin: 10px 20px;
+	clear: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
