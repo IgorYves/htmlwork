@@ -1,14 +1,140 @@
 @charset "UTF-8";
 html {
 	background-color: #b7b4a9;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 90%;
+}
+
+h1 {
+	font-family: "Lucida Console", Monaco, monospace;
+font-size: 35px;
+letter-spacing: 2.4px;
+word-spacing: 3.2px;
+color: #323126;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+text-align: center;
+}
+
+h3, h2 {
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 body {
-	width: 80%;
+	width: 85%;
 	padding: 10px 30px;
 	margin: 30px 30px;
 	border-radius: 10px;
+	border: 1px solid #8C9E94;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
 	background-color: #eae0b5;
 }
-div#imglegion{}
+div#imglegion{
+	display: inline-block;
+}
+div#about {
+	display: inline-block;
+	position:relative;
+	left:50px;
+	top:-40px;
+}
+div#about>ul {
+	list-style: none;
+}
+div#about>ul li {
+	margin: 2px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 100%;
+}
+div#about>ul a {
+	text-decoration: none ;
+}
+div#about>ul a:hover {
+	color: #f00000 ;
+}
+
+form#contactme {
+	width: 50%;
+}
+
+#submit {
+	position:relative;
+	right:0px;
+	bottom:10px;
+	font-size: 120%;
+	width: 200px;
+	margin: 10px;
+	padding: 5px;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+fieldset {
+	margin: 10px;
+}
+fieldset>legend {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 110%;
+}
+
+div.peintre {
+	width: 90%;
+	margin: 30px 30px;
+	display: block;
+	clear: left;
+	padding: 20px;
+}
+
+div.poeme {
+	width: 90%;
+	margin: 0px 30px;
+	display: block;
+	clear: left;
+	padding: 20px;
+}
+
+img {
+	float:left;
+	display: inline;
+	margin: 10px 20px;
+	clear: left;
+}
+
+ul#menu {
+	float:right;
+	display: inline;
+	list-style: none;
+	
+}
+ul#menu li {
+	background: #8a8a5c ;
+  color: #fff ;
+  border: 1px solid #630 ;
+  margin-bottom: 1px ;
+  padding: 2px;
+}
+ul#menu li a {
+	display: block ;
+  background: #999966 ;
+  color: #fff ;
+  font-family: "Lucida Console", Monaco, monospace;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 5px ;
+}
+ul#menu li a:hover, ul#menu li a:focus, ul#menu li a:active {
+  background: #666633 ;
+}
+
+
+
+
+
+
+

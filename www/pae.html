@@ -2,60 +2,85 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>suivie pae</title>
+    <title>Yves HUGOT > suivie pae</title>
     <link rel="stylesheet" href="css/mainstyles.css">
   </head>
   <body>
+  
+  <ul id="menu">
+          <li><a href="index.html" title="home">Main page</a></li>
+          <li><a href="cv.html" title="cv">CV html</a></li>
+          <li><a href="ressources/HUGOT_Yves_CV_En_withoutAddr.pdf" title="CV_en" target="_blank">CV pdf</a></li>
+          <li><a href="lm.html" title="lm">LM html</a></li>
+         <li><a href="ressources/HUGOT_Yves_CL_withoutAddr.pdf" title="LM_en" target="_blank">LM pdf</a></li>
+          <li><a href="ressources/HUGOT_Yves_2018_v2.pptx" title="Presentation" target="_blank">Presentation ppt</a></li>
+          <li><a href="pae.html" title="pae">Suivie PE</a></li>
+          <li><a href="poemes.html">Poemes preferés</a></li>
+          <li><a href="peintres.html">Peintres preferés</a></li>
+          <li><a href="https://www.youtube.com/watch?v=rumEi6BKkeQ">Chansons preferées</a></li>
+          <li><a href="uml.html">UML+CSS</a></li>
+          <li><a href="cdaudio.html">CD audio</a></li>
+          <li><a href="contact.html">Contactez moi</a></li>
+          <li><a href="template/index.html" target="_blank">Template externe</a></li>
+        </ul>
+    
+   
+    <h1>Yves HUGOT</h1>
+  
+  
     <h2>Rapport de suivi de la période en entreprise </h2>
-    <h4>Stagiaire</h4>
-    <table style="width: 476px; height: 72px;" border="0">
+    
+<form id="pae" action="pae.html" enctype="multipart/form-data" method="post">
+
+<fieldset>
+    <legend>Stagiaire</legend>
+    <table style="width: 70%;" border="0">
       <tbody>
         <tr>
           <td style="width: 142.617px;">Nom et Prenom * </td>
-          <td style="width: 318.583px;"><input name="nom_prenom" size="20" maxlength="100"
-
-              required="required" type="text"><br>
-          </td>
+          <td style="width: 318.583px;"><input name="nom_prenom" size="20" maxlength="100" required="required" type="text"></td>
         </tr>
         <tr>
           <td>Formation *</td>
-          <td><input name="formation" size="20" maxlength="50" required="required"
-
-              type="text"><br>
-          </td>
+          <td><input name="formation" size="20" maxlength="50" required="required" type="text"></td>
         </tr>
       </tbody>
     </table>
-    <h4>Entreprise</h4>
-    <table style="width: 860px; height: 211px;" border="0">
+    
+</fieldset>
+ 
+<fieldset>
+    <legend>Entreprise</legend>
+<table style="width: 90%;""  border="0">
       <tbody>
         <tr>
           <td>Nom *</td>
-          <td><input name="entr_nom" size="20" maxlength="50" required="required"
-
-              type="text"><br>
+          <td><input name="entr_nom" size="20" maxlength="50" required="required" type="text">
           </td>
         </tr>
         <tr>
           <td style="width: 182.1px;">Adresse *</td>
-          <td style="width: 580.1px;"><textarea name="entr_adresse" cols="20" rows="3"
-
-required="required"></textarea><br>
-          </td>
+          <td style="width: 580.1px;"><textarea name="entr_adresse" cols="20" rows="3" required="required"></textarea></td>
         </tr>
         <tr>
           <td>Nom de tuteur *</td>
-          <td><input name="entr_tuteur" size="20" maxlength="50" required="required"
-
-              type="text"> Fonction * <input name="tuteur_fonction" size="20" maxlength="50"
-
-              required="required" type="text"></td>
+          <td><input name="entr_tuteur" size="20" maxlength="50" required="required" type="text"></td>
+        </tr>
+        <tr>
+          <td>Fonction *</td>
+          <td><input name="tuteur_fonction" size="20" maxlength="50"  required="required" type="text"></td>
         </tr>
         <tr>
           <td>Tel *</td>
-          <td><input name="tel" size="20" maxlength="50" required="required" type="text">
-            Portable&nbsp;<input name="portable" size="20" maxlength="50" type="text">
-            Email&nbsp;<input name="email" size="20" maxlength="50" type="text"></td>
+          <td><input name="tel" size="20" maxlength="50" required="required" type="text"></td>
+        </tr>
+        <tr>
+          <td>Portable</td>
+          <td><input name="portable" size="20" maxlength="50" type="text"></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input name="email" size="20" maxlength="50" type="email"></td>
         </tr>
         <tr>
           <td>Secteur d'activité *</td>
@@ -64,65 +89,97 @@ required="required"></textarea><br>
         </tr>
       </tbody>
     </table>
-    <h4>Observation sur le Deroulement de la PAE</h4>
-    <table style="width: 847px; height: 79px;" border="0">
+    
+</fieldset>    
+
+<fieldset>
+    <legend>Observation sur le Deroulement de la PAE</legend>     
+   
+    <table style="width: 90%;" border="0">
       <tbody>
         <tr>
           <td>Objectifs d'accisioton atteints *</td>
-          <td><input name="obj" required="required" value="obj_total" type="radio">
-            totalement</td>
-          <td><input name="obj" required="required" value="obj_part" type="radio">
-            partiellement</td>
-          <td><input name="obj" required="required" value="obj_non" type="radio">
-            non</td>
+          <td><input name="obj" required="required" value="obj_total" type="radio"> totalement</td>
+          <td><input name="obj" required="required" value="obj_part" type="radio"> partiellement</td>
+          <td><input name="obj" required="required" value="obj_non" type="radio"> non</td>
         </tr>
         <tr>
-          <td style="width: 308.15px;">Comportement en milieu de travail *<br>
-          </td>
-          <td style="width: 180.783px;"><input name="comport" value="comport_adapt"
-
-              required="required" type="radio"> adapté<br>
-          </td>
-          <td style="width: 192.017px;"><input name="comport" value="comport_progr"
-
-              required="required" type="radio"> en progression<br>
-          </td>
-          <td style="width: 164.433px;"><input name="comport" value="comport_inadapt"
-
-              required="required" type="radio">peu adapté<br>
-          </td>
+          <td style="width: 308.15px;">Comportement en milieu de travail *</td>
+          <td style="width: 180.783px;"><input name="comport" value="comport_adapt" required="required" type="radio"> adapté</td>
+          <td style="width: 192.017px;"><input name="comport" value="comport_progr" required="required" type="radio"> en progression</td>
+          <td style="width: 164.433px;"><input name="comport" value="comport_inadapt" required="required" type="radio"> peu adapté</td>
         </tr>
         <tr>
           <td>Satisfaction de l'entreprise *<br>
           </td>
-          <td><input name="satisf" value="satisf_satisf" required="required" type="radio">
-            satisfaite<br>
-          </td>
-          <td><input name="satisf" value="satisf_peu" required="required" type="radio">
-            peu satisfaite<br>
-          </td>
-          <td><input name="satisf" value="satisf_pas" required="required" type="radio">
-            pas satisfaite<br>
-          </td>
+          <td><input name="satisf" value="satisf_satisf" required="required" type="radio"> satisfaite</td>
+          <td><input name="satisf" value="satisf_peu" required="required" type="radio"> peu satisfaite</td>
+          <td><input name="satisf" value="satisf_pas" required="required" type="radio"> pas satisfaite</td>
         </tr>
       </tbody>
     </table>
-    <div>Remarques<br>
-      <textarea name="remark" cols="20" rows="2"></textarea></div>
-    <div>Perspectives d'embauche *&nbsp;&nbsp;&nbsp; <input name="cdd" required="required"
+    <p>Remarques<br>
+      <textarea name="remark" cols="20" rows="2"></textarea></p>
+    <p>Perspectives d'embauche *&nbsp;&nbsp;&nbsp; <input name="cdd" required="required" type="checkbox">CDD 
+        &nbsp;&nbsp;&nbsp;<input name="cdi" required="required" type="checkbox">CDI 
+        &nbsp;&nbsp;&nbsp;<input name="altern" required="required" type="checkbox">Alternance 
+        &nbsp;&nbsp;&nbsp;<input name="neant" required="required" type="checkbox">Neant 
+        </p>
+</fieldset>
 
-        type="checkbox">CDD &nbsp;&nbsp;&nbsp;<input name="cdi" required="required"
 
-        type="checkbox">CDI &nbsp;&nbsp;&nbsp;<input name="altern" required="required"
-
-        type="checkbox">Alternance &nbsp;&nbsp;&nbsp;<input name="neant" required="required"
-
-        type="checkbox">Neant </div>
+<fieldset>
+    <legend>Informations consernant l'activité de l'entreprise et les possibilités d'intervention</legend>     
     
-      <h4>Informations consernant l'activité de l'entreprise et les possibilités
-        d'intervention</h4>
-      <p><br>
-      </p>
-    
+ <p>Taille de l'entreprise &nbsp;&nbsp;&nbsp; <input name="taille" type="radio">-10&nbsp;pers 
+        &nbsp;&nbsp;&nbsp;<input name="taille" type="radio">+10&nbsp;pers 
+        &nbsp;&nbsp;&nbsp;<input name="taille" type="radio">+50&nbsp;pers 
+        &nbsp;&nbsp;&nbsp;<input name="taille" type="radio">+100&nbsp;pers 
+  </p>
+        
+<p>L'entreprise a-t-elle des projets de développemnt 
+		&nbsp;&nbsp;&nbsp; <input name="develop" type="radio">oui 
+		&nbsp;&nbsp;&nbsp;<input name="develop" type="radio">non  
+</p>
+
+<p>Remarques<br>
+      <textarea name="remark2" cols="20" rows="2"></textarea>
+</p>
+
+<p>Emission d'une fiche Prospect/Client &nbsp;&nbsp;&nbsp; <input name="fichepc" type="radio">oui 
+        &nbsp;&nbsp;&nbsp;<input name="fichepc" type="radio">non
+        &nbsp;&nbsp;&nbsp;date&nbsp;<input name="fichepcdate" type="date">
+  </p>
+
+   
+</fieldset>
+
+<fieldset>
+    <legend>Formateur</legend>     
+<table style="width: 70%;" border="0">
+      <tbody>
+        <tr>
+          <td style="width: 142.617px;">Nom et Prenom * </td>
+          <td style="width: 318.583px;"><input name="nomprenomformateur" size="20" maxlength="100" required="required" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>Date de la visite</td>
+          <td><input name="datevisite" size="20" maxlength="50" type="date"></td>
+        </tr>
+        <tr>
+          <td>Date du contact téléphonique</td>
+          <td><input name="datecontact" size="20" maxlength="50" type="date"></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+</fieldset>
+
+<div style="text-align: right;">* champs obligatoires</div>
+   <input id="submit" type="submit" value="Envoyer">
+</form>
+   
   </body>
 </html>
